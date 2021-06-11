@@ -1,14 +1,3 @@
-window.onload = function(){
-
-    var copy=document.getElementById("copy");
-    
-    setTimeout(() => {if(copy==null){
-        window.location.href="https://rico-web.blogspot.com/";
-    };}, 15000);
-    copy.setAttribute("href","https://rico-web.blogspot.com/");
-    copy.innerHTML="<p  style='visibility: visible ! important; display: block ! important' target='_blank'>Designed by | Rico Web</p>"
-};
-
 var getFontawesome=document.createElement("link");getFontawesome.rel="stylesheet",getFontawesome.type="text/css",getFontawesome.href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",document.querySelector("body").appendChild(getFontawesome);
 var getPrism=document.createElement("link");getPrism.rel="stylesheet",getPrism.type="text/css",getPrism.href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap",document.querySelector("body").appendChild(getPrism);
 
